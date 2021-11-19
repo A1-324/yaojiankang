@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_layout"
+    android:orientation="vertical"
+    android:stretchColumns="2"
+    tools:context=".MeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#5380c3"
+        android:gravity="center"
+        android:text="我 的"
+        android:textColor="@color/white"
+        android:textSize="50sp">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 姓名:李由"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="#5380c3"
+            android:gravity="center_vertical"
+            android:onClick="click">
+        </Button>
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 电话：11788563790"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:background="#5380c3"
+            android:textSize="25sp"
+            android:onClick="click2"
+            android:gravity="center_vertical">
+        </Button>
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 密码：******"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="#5380c3"
+            android:textSize="25sp"
+            android:onClick="click4"
+            android:gravity="center_vertical">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Me1Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="编辑姓名："
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="25sp"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="完成"
+        android:background="@color/blue"
+        android:textColor="#000000"
+        android:textSize="30sp" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        >
+    </Button>
+
+</LinearLayout>
